@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(209, 6, 6);
+    background-color: #F3D503;
   }
   
 .ul_top > li {
@@ -12,7 +12,7 @@
   
 .ul_top li > a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
