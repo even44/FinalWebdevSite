@@ -1,3 +1,5 @@
+
+/* Navigasjonsbar for desktop(widescreen) */
 .ul_top {
     display: flex;
     justify-content: space-between;
@@ -5,12 +7,11 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F3D503;
-    margin-top: auto;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
+    background-color: #F3D503;
   }
   
 .ul_top > li {
@@ -20,14 +21,13 @@
 .ul_top li > a {
     display: block;
     color: black;
-    font-size: xx-small;
+    font-size: large;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   #logo{
-      display: none;
       background-image: url("../Images/logo.jpg");
       background-size: contain;
       background-repeat: no-repeat;
@@ -48,3 +48,40 @@
 .ul_top li > a:hover {
     background-color: rgb(136, 106, 106);
   }
+
+/* Grid Oppsett */
+.grid_container{
+  margin-top: 3%;
+  display: grid;
+  grid-gap: 30px;
+  margin-bottom: 10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+            ". intro intro logo ."
+            ". intro intro logo ."
+            ". main main main .";
+}
+
+
+
+
+.Intro{
+  grid-area: intro;
+  font-size: xx-large;
+}
+.logo{
+  grid-area: logo;
+  margin: auto;
+  
+}
+.logo > img{
+  width: 100%;
+  
+}
+
+.main{
+  grid-area: main;
+  font-size: xx-large;
+}
+
