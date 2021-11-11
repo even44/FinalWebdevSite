@@ -15,9 +15,29 @@
 .ul_top li > a {
     display: block;
     color: black;
+    font-size: xx-large;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  #logo{
+      background-image: url("../Images/logo.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+    #logo > a{
+        color: transparent;
+    }
+    
+      
+  
+  .top_logo{
+      width: 100%;
+      padding: 0%;
+      margin: 0%;
+      border: 0;
+      overflow: hidden;
   }
   
   /* Change the link color to #111 (black) on hover */
