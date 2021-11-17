@@ -1,6 +1,6 @@
 
 /* Navigasjonsbar for desktop(widescreen) */
-.ul_top {
+.ul_nav {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -14,11 +14,11 @@
     background-color: #F3D503;
   }
   
-.ul_top > li {
+.ul_nav > li {
     float: left;
   }
   
-.ul_top li > a {
+.ul_nav li > a {
     display: block;
     color: black;
     font-size: xx-large;
@@ -45,7 +45,7 @@
   }
   
   /* Change the link color to #111 (black) on hover */
-.ul_top li > a:hover {
+.ul_nav li > a:hover {
     background-color: rgb(136, 106, 106);
   }
 
