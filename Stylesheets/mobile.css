@@ -52,9 +52,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
-            ". intro intro logo ."
-            ". intro intro logo ."
-            ". main main main .";
+            
+            "intro intro intro intro intro"
+            ". logo logo logo ."
+            "main main main main main";
 }
 
 
