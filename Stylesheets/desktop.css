@@ -82,3 +82,11 @@
   font-size: xx-large;
 }
 
+#cookie {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+  margin: auto;
+  margin-top: 8%;
+ }
+

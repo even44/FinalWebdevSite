@@ -28,8 +28,8 @@
     text-decoration: none;
   }
 
+
   
-    
   
   .top_logo{
       width: 100%;
@@ -81,4 +81,12 @@
   font-family: 'Merriweather', serif;
   font-size: xx-large;
 }
+
+#cookie {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  margin: auto;
+  margin-top: 8%;
+ }
 
