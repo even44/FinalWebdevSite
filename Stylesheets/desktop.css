@@ -64,9 +64,9 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-            ". intro intro logo ."
-            ". intro intro logo ."
-            ". main main main .";
+            ". intro intro intro ."
+            ". p1 p1 logo ."
+            ". p2 p2 p2 .";
 }
 
 .grid_container_reflection{
@@ -124,8 +124,14 @@
   
 }
 
-.main{
-  grid-area: main;
+.p1{
+  grid-area: p1;
+  font-family: 'Merriweather', serif;
+  font-size: xx-large;
+}
+
+.p2{
+  grid-area: p2;
   font-family: 'Merriweather', serif;
   font-size: xx-large;
 }
