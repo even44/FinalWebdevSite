@@ -148,6 +148,12 @@
   font-size: x-large;
 }
 
+.intro{
+  grid-area: intro;
+  font-family: 'Verdana', serif;
+  font-size: x-large;
+}
+
 .underoverskrift1{
   grid-area: underoverskrift1;
   font-family: 'Merriweather', serif;
@@ -185,11 +191,6 @@
   
 }
 
-.intro{
-  grid-area: intro;
-  font-family: 'Verdana', serif;
-  font-size: x-large;
-}
 .logo{
   grid-area: logo;
   margin: auto;
