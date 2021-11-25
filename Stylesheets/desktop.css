@@ -120,55 +120,55 @@
 .avsnitt1{
   grid-area: avsnitt1;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .avsnitt2{
   grid-area: avsnitt2;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .avsnitt3{
   grid-area: avsnitt3;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .avsnitt4{
   grid-area: avsnitt4;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .avsnitt5{
   grid-area: avsnitt5;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .avsnitt6{
   grid-area: avsnitt6;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .avsnitt7{
   grid-area: avsnitt7;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .underoverskrift1{
   grid-area: underoverskrift1;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .underoverskrift2{
   grid-area: underoverskrift2;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .wireframe1{
@@ -199,7 +199,7 @@
 .intro{
   grid-area: intro;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 .logo{
   grid-area: logo;
@@ -214,13 +214,13 @@
 .p1{
   grid-area: p1;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .p2{
   grid-area: p2;
   font-family: 'Merriweather', serif;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .main_reflection{
