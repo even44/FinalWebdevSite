@@ -46,7 +46,13 @@
 
     function myFunction() {
         points++;
-        document.getElementById("score").style.fontSize = "1000%";
+        if(visualViewport.width < 1200){
+            document.getElementById("score").style.fontSize = "175%";
+        }
+        else{
+            document.getElementById("score").style.fontSize = "1000%";
+        }
+        
         document.getElementById("score").innerHTML = points;
     };
 </script>
