@@ -43,7 +43,7 @@
 .grid_container_homepage{
   margin-top: 5%;
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 0%;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   grid-template-areas:
@@ -55,7 +55,7 @@
 .grid_container_reflection{
   margin-top: 5%;
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 0%;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   grid-template-areas:
@@ -71,7 +71,7 @@
 .grid_container_accessibility{
   margin-top: 5%;
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 0%;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   grid-template-areas:
