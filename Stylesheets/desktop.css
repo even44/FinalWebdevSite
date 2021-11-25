@@ -22,7 +22,7 @@
     display: block;
     color: black;
     font-size: xx-large;
-    font-family: 'Tahoma', serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -108,43 +108,43 @@
 
 .avsnitt1{
   grid-area: avsnitt1;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .avsnitt2{
   grid-area: avsnitt2;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .avsnitt3{
   grid-area: avsnitt3;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .avsnitt4{
   grid-area: avsnitt4;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .avsnitt5{
   grid-area: avsnitt5;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .avsnitt6{
   grid-area: avsnitt6;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .avsnitt7{
   grid-area: avsnitt7;
-  font-family: 'Tahoma', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
