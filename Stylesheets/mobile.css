@@ -35,7 +35,7 @@
 
 /* Grid Oppsett */
 .grid_container_homepage{
-  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-gap: 2%;
   grid-template-columns: repeat(3,1fr);
@@ -47,7 +47,7 @@
 }
 
 .grid_container_reflection{
-  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-gap: 2%;
   grid-template-columns: repeat(3,1fr);
@@ -63,7 +63,7 @@
 }
 
 .grid_container_accessibility{
-  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-gap: 2%;
   grid-template-columns: repeat(3,1fr);
@@ -75,7 +75,7 @@
 }
 
 .grid_container_topical{
-  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-gap: 2%;
   grid-template-columns: repeat(3,1fr);
@@ -165,8 +165,6 @@
   
 }
 
-
-
 .bilde1 > img,
 .bilde2 > img,
 .bilde3 > img{
@@ -196,7 +194,7 @@
 }
 
 .grid_container_fun{
-  margin-top: 10%;
+  margin-bottom: 5%;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: auto;
@@ -227,3 +225,4 @@
   text-align: center;
   vertical-align: 50%;
 }
+
