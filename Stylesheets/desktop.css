@@ -13,7 +13,7 @@
     overflow: hidden;
     background-color: #F3D503;
   }
-  
+
 .ul_nav > li {
     float: left;
   }
@@ -22,30 +22,19 @@
     display: block;
     color: black;
     font-size: xx-large;
-    font-family: 'Merriweather', serif;
+    font-family: 'Verdana', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
-  
-  
-    
-  
-  .top_logo{
-      width: 100%;
-      padding: 0%;
-      margin: 0%;
-      border: 0;
-  }
-  
   /* Change the link color to #111 (black) on hover */
 .ul_nav li > a:hover {
     background-color: rgb(136, 106, 106);
   }
 
 /* Grid Oppsett */
-.grid_container{
+.grid_container_1{
   margin-top: 5%;
   display: grid;
   grid-gap: 30px;
@@ -57,15 +46,151 @@
             ". main main main .";
 }
 
-
-
-
-
-.Intro{
-  grid-area: intro;
-  font-family: 'Merriweather', serif;
-  font-size: xx-large;
+.grid_container_homepage{
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            ". intro intro intro ."
+            ". avsnitt1 avsnitt1 logo ."
+            ". avsnitt2 avsnitt2 avsnitt2 .";
 }
+
+.grid_container_reflection{
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            ". intro intro intro ."
+            ". avsnitt1 avsnitt1 avsnitt1 ."
+            ". avsnitt2 avsnitt2 wireframe1 ."
+            ". avsnitt3 avsnitt3 avsnitt3 ."
+            ". wireframe2 avsnitt4 avsnitt4 ."
+            ". avsnitt5 avsnitt5 avsnitt5 ."
+            ". avsnitt6 avsnitt6 avsnitt6 .";
+}
+
+.grid_container_accessibility{
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            ". intro intro logo ."
+            ". intro intro logo ."
+            ". main main main .";
+}
+
+.grid_container_topical{
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            ". intro intro intro ."
+            ". avsnitt1 avsnitt1 avsnitt1 ."
+            ". underoverskrift1 underoverskrift1 underoverskrift1 ."
+            ". avsnitt2 avsnitt2 wireframe1 ."
+            ". avsnitt3 avsnitt3 avsnitt3 ."
+            ". wireframe2 avsnitt4 avsnitt4 ."
+            ". underoverskrift2 underoverskrift2 underoverskrift2 ."
+            ". avsnitt5 avsnitt5 avsnitt5 ."
+            ". avsnitt6 avsnitt6 wireframe3 ."
+            ". avsnitt7 avsnitt7 avsnitt7 .";
+}
+
+
+.avsnitt1{
+  grid-area: avsnitt1;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.avsnitt2{
+  grid-area: avsnitt2;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.avsnitt3{
+  grid-area: avsnitt3;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.avsnitt4{
+  grid-area: avsnitt4;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.avsnitt5{
+  grid-area: avsnitt5;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.avsnitt6{
+  grid-area: avsnitt6;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.avsnitt7{
+  grid-area: avsnitt7;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
+
+.intro{
+  grid-area: intro;
+  font-family: 'Verdana', serif;
+  font-size: x-large;
+}
+
+.underoverskrift1{
+  grid-area: underoverskrift1;
+  font-family: 'Verdana', serif;
+  font-size: x-large;
+}
+
+.underoverskrift2{
+  grid-area: underoverskrift2;
+  font-family: 'Verdana', serif;
+  font-size: x-large;
+}
+
+.wireframe1{
+  grid-area: wireframe1;
+  margin: auto;
+  
+}
+
+.wireframe2{
+  grid-area: wireframe2;
+  margin: auto;
+  
+}
+
+.wireframe3{
+  grid-area: wireframe3;
+  margin: auto;
+  
+}
+
+.wireframe1 > img,
+.wireframe2 > img,
+.wireframe3 > img{
+  width: 100%;
+  
+}
+
 .logo{
   grid-area: logo;
   margin: auto;
@@ -76,9 +201,25 @@
   
 }
 
-.main{
-  grid-area: main;
-  font-family: 'Merriweather', serif;
+.main_reflection{
+  grid-area: main_reflection;
+  font-family: 'Tahoma', serif;
   font-size: xx-large;
+}
+
+#cookie {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+  margin: auto;
+  margin-top: 8%;
+ }
+
+#score {
+  margin-left: auto;
+  margin-top: auto;
+  font-size: 1000%;
+  font-family: 'Tahoma', serif;
+  text-align: center;
 }
 
