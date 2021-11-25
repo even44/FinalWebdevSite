@@ -34,15 +34,22 @@
             </li>
         </ul>
     </nav>
-        <div onclick="myFunction()" class="grid_container_fun"><div id="cookie"></h1></div></div>
-    <script>
-        var points = 0;
-
-        function myFunction() {
-            points++;
-            //alert("Du har " + points + " poeng!");
-            document.getElementById("score").innerHTML = points;
-        };
-    </script>
+    <div class="grid_container_fun">
+        <h1 id="headline">Spill 1:</h1>
+        <div onclick="myFunction()" class="cookie">
+            <h1 id="score">Trykk for å få poeng</h1>
+        </div>
+    </div>  
 </body>
+<script>
+    var points = 0;
+
+    function myFunction() {
+        points++;
+        document.getElementById("score").style.fontSize = "1000%";
+        document.getElementById("score").style.alignSelf = "center";
+        document.getElementById("score").style.justifySelf = "center";
+        document.getElementById("score").innerHTML = points;
+    };
+</script>
 </html>

@@ -106,12 +106,6 @@
             ". avsnitt7 avsnitt7 avsnitt7 .";
 }
 
-.ul_nav{
-  grid-area: ul_nav;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
-}
-
 .avsnitt1{
   grid-area: avsnitt1;
   font-family: 'Tahoma', serif;
@@ -211,29 +205,34 @@
   font-family: 'Tahoma', serif;
   font-size: xx-large;
 }
+
 .grid_container_fun{
-  margin-top: 5%;
+  margin-top: 10%;
   display: grid;
-  grid-gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
-            " nav nav nav nav nav "
-            ". cookie cookie cookie ."
-            ". cookie cookie cookie ."
-            ". cookie cookie cookie ."
-            ". . . . .";
+            " headline cookie . "
+            " . cookie . ";
 }
 
-#cookie {
+.headline {
+  grid-area: headline;
+}
+
+.cookie {
   grid-area: cookie;
   background-color: aqua;
+  width: 35vw;
+  height: 35vw;
+  margin: auto;
+  margin-top: auto;
  }
 
 #score {
   margin-left: auto;
   margin-top: auto;
-  font-size: 1000%;
+  font-size: 700%;
   font-family: 'Tahoma', serif;
   text-align: center;
 }
