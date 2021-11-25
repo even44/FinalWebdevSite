@@ -203,8 +203,9 @@
             " . cookie . ";
 }
 
-.headline {
+#headline {
   grid-area: headline;
+  font-size: large;
 }
 
 .cookie {
