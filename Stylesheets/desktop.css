@@ -159,8 +159,8 @@
   
 }
 
-.tesla{
-  grid-area: tesla;
+.wireframe2{
+  grid-area: wireframe2;
   margin: auto;
   
 }
@@ -171,9 +171,16 @@
   
 }
 
+.tesla{
+  grid-area: tesla;
+  margin: auto;
+  
+}
+
 .wireframe1 > img,
-.tesla > img,
-.wireframe3 > img{
+.wireframe2 > img,
+.wireframe3 > img
+.tesla > img{
   width: 100%;
   
 }
