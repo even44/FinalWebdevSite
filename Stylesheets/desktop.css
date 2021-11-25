@@ -215,10 +215,10 @@
  }
 
 #score {
-  margin: auto;
+  margin-left: auto;
   margin-top: auto;
-  font-size: xx-large;
+  font-size: 1000%;
   font-family: 'Tahoma', serif;
-
+  text-align: center;
 }
 
