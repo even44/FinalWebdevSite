@@ -2,7 +2,7 @@
 /* Navigasjonsbar for desktop(widescreen) */
 .ul_nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@
     display: block;
     color: black;
     font-size: xx-large;
-    font-family: 'Verdana', serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,7 +54,7 @@
   grid-template-rows: auto;
   grid-template-areas:
             ". intro intro intro ."
-            ". avsnitt1 avsnitt1 avsnitt1 ."
+            ". avsnitt1 avsnitt1 logo ."
             ". avsnitt2 avsnitt2 avsnitt2 .";
 }
 
@@ -148,21 +148,15 @@
   font-size: x-large;
 }
 
-.intro{
-  grid-area: intro;
-  font-family: 'Verdana', serif;
-  font-size: x-large;
-}
-
 .underoverskrift1{
   grid-area: underoverskrift1;
-  font-family: 'Verdana', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
 .underoverskrift2{
   grid-area: underoverskrift2;
-  font-family: 'Verdana', serif;
+  font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
@@ -191,6 +185,11 @@
   
 }
 
+.intro{
+  grid-area: intro;
+  font-family: 'Merriweather', serif;
+  font-size: x-large;
+}
 .logo{
   grid-area: logo;
   margin: auto;
