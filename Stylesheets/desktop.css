@@ -105,6 +105,11 @@
             ". avsnitt7 avsnitt7 avsnitt7 .";
 }
 
+.ul_nav{
+  grid-area: ul_nav;
+  font-family: 'Tahoma', serif;
+  font-size: x-large;
+}
 
 .avsnitt1{
   grid-area: avsnitt1;
@@ -210,9 +215,9 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: 20% 20% 20% 20% 20%;
   grid-template-areas:
-            " nav nav nav nav nav"
+            " nav nav nav nav nav "
             ". cookie cookie cookie ."
             ". cookie cookie cookie ."
             ". cookie cookie cookie ."
