@@ -190,7 +190,8 @@
 .tesla > img,
 .coding > img{
   width: 100%;
-  
+  max-width: 250px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .intro{
