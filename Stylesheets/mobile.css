@@ -43,7 +43,8 @@
   grid-template-areas:
             " intro intro intro "
             " avsnitt1 avsnitt1 logo "
-            " avsnitt2 avsnitt2 avsnitt2 ";
+            " avsnitt2 avsnitt2 avsnitt2 "
+            ". . .";
 }
 
 .grid_container_reflection{
@@ -59,7 +60,8 @@
             " avsnitt3 avsnitt3 avsnitt3 "
             " bilde3 avsnitt4 avsnitt4 "
             " avsnitt5 avsnitt5 avsnitt5 "
-            " avsnitt6 avsnitt6 avsnitt6 ";
+            " avsnitt6 avsnitt6 avsnitt6 "
+            ". . .";
 }
 
 .grid_container_accessibility{
@@ -71,7 +73,8 @@
   grid-template-areas:
             " intro intro logo "
             " intro intro logo "
-            " main main main ";
+            " main main main "
+            ". . .";
 }
 
 .grid_container_topical{
@@ -90,7 +93,8 @@
             " underoverskrift2 underoverskrift2 underoverskrift2 "
             " avsnitt5 avsnitt5 avsnitt5 "
             " avsnitt6 avsnitt6 bilde3 "
-            " avsnitt7 avsnitt7 avsnitt7 ";
+            " avsnitt7 avsnitt7 avsnitt7 "
+            ". . .";
 }
 
 .avsnitt1{
