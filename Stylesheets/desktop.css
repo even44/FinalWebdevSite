@@ -61,9 +61,9 @@
   grid-template-areas:
             ". intro intro intro ."
             ". avsnitt1 avsnitt1 avsnitt1 ."
-            ". avsnitt2 avsnitt2 wireframe1 ."
+            ". avsnitt2 avsnitt2 bilde1 ."
             ". avsnitt3 avsnitt3 avsnitt3 ."
-            ". coding avsnitt4 avsnitt4 ."
+            ". bilde3 avsnitt4 avsnitt4 ."
             ". avsnitt5 avsnitt5 avsnitt5 ."
             ". avsnitt6 avsnitt6 avsnitt6 .";
 }
@@ -90,12 +90,12 @@
             ". intro intro intro ."
             ". avsnitt1 avsnitt1 avsnitt1 ."
             ". underoverskrift1 underoverskrift1 underoverskrift1 ."
-            ". avsnitt2 avsnitt2 wireframe1 ."
+            ". avsnitt2 avsnitt2 bilde1 ."
             ". avsnitt3 avsnitt3 avsnitt3 ."
-            ". tesla avsnitt4 avsnitt4 ."
+            ". bilde2 avsnitt4 avsnitt4 ."
             ". underoverskrift2 underoverskrift2 underoverskrift2 ."
             ". avsnitt5 avsnitt5 avsnitt5 ."
-            ". avsnitt6 avsnitt6 wireframe3 ."
+            ". avsnitt6 avsnitt6 bilde3 ."
             ". avsnitt7 avsnitt7 avsnitt7 .";
 }
 
@@ -153,42 +153,30 @@
   font-size: x-large;
 }
 
-.wireframe1{
-  grid-area: wireframe1;
+.bilde1{
+  grid-area: bilde1;
   margin: auto;
   
 }
 
-.wireframe2{
-  grid-area: wireframe2;
+.bilde2{
+  grid-area: bilde2;
   margin: auto;
   
 }
 
-.wireframe3{
-  grid-area: wireframe3;
-  margin: auto;
-  
-}
-
-.tesla{
-  grid-area: tesla;
-  margin: auto;
-  
-}
-
-.coding{
-  grid-area: coding;
+.bilde3{
+  grid-area: bilde3;
   margin: auto;
   
 }
 
 
-.wireframe1 > img,
-.wireframe2 > img,
-.wireframe3 > img,
-.tesla > img,
-.coding > img{
+
+
+.bilde1 > img,
+.bilde2 > img,
+.bilde3 > img{
   width: 100%;
   max-width: 250px;
   box-shadow: 5px 5px 5px black;
