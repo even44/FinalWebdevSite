@@ -34,13 +34,14 @@
             </li>
         </ul>
     </nav>
-        <div onclick="myFunction()" id="cookie"></div>
+        <div onclick="myFunction()" id="cookie"><h1></h1></div>
     <script>
         var points = 0;
 
         function myFunction() {
             points++;
-            alert("Du har " + points + " poeng!");
+            //alert("Du har " + points + " poeng!");
+            document.getElementById("cookie").innerHTML = points;
         };
     </script>
 </body>
