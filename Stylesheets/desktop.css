@@ -63,7 +63,7 @@
             ". avsnitt1 avsnitt1 avsnitt1 ."
             ". avsnitt2 avsnitt2 wireframe1 ."
             ". avsnitt3 avsnitt3 avsnitt3 ."
-            ". wireframe2 avsnitt4 avsnitt4 ."
+            ". coding avsnitt4 avsnitt4 ."
             ". avsnitt5 avsnitt5 avsnitt5 ."
             ". avsnitt6 avsnitt6 avsnitt6 .";
 }
@@ -177,10 +177,18 @@
   
 }
 
+.coding{
+  grid-area: coding;
+  margin: auto;
+  
+}
+
+
 .wireframe1 > img,
 .wireframe2 > img,
-.wireframe3 > img
-.tesla > img{
+.wireframe3 > img,
+.tesla > img,
+.coding > img{
   width: 100%;
   
 }
