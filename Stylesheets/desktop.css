@@ -13,7 +13,7 @@
     overflow: hidden;
     background-color: #F3D503;
   }
-  
+
 .ul_nav > li {
     float: left;
   }
@@ -34,7 +34,7 @@
   }
 
 /* Grid Oppsett */
-.grid_container_1{
+.grid_container_index{
   margin-top: 5%;
   display: grid;
   grid-gap: 30px;
