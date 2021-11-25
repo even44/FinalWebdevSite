@@ -189,7 +189,9 @@
   
 }
 
-.wireframe > img{
+.wireframe1 > img,
+.wireframe2 > img,
+.wireframe3 > img{
   width: 100%;
   
 }
