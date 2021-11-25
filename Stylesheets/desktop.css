@@ -28,17 +28,6 @@
     text-decoration: none;
   }
 
-  
-  
-    
-  
-  .top_logo{
-      width: 100%;
-      padding: 0%;
-      margin: 0%;
-      border: 0;
-  }
-  
   /* Change the link color to #111 (black) on hover */
 .ul_nav li > a:hover {
     background-color: rgb(136, 106, 106);
