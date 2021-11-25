@@ -202,7 +202,7 @@
 
 .main_reflection{
   grid-area: main_reflection;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: xx-large;
 }
 
@@ -213,4 +213,12 @@
   margin: auto;
   margin-top: 8%;
  }
+
+#score {
+  margin: auto;
+  margin-top: auto;
+  font-size: xx-large;
+  font-family: 'Tahoma', serif;
+
+}
 
