@@ -205,13 +205,23 @@
   font-family: 'Tahoma', serif;
   font-size: xx-large;
 }
+.grid_container_fun{
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            " nav nav nav nav nav"
+            ". cookie cookie cookie ."
+            ". cookie cookie cookie ."
+            ". cookie cookie cookie ."
+            ". . . . .";
+}
 
 #cookie {
-  height: 500px;
-  width: 500px;
+  grid-area: cookie;
   background-color: aqua;
-  margin: auto;
-  margin-top: 8%;
  }
 
 #score {
