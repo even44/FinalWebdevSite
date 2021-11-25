@@ -54,7 +54,7 @@
   grid-template-rows: auto;
   grid-template-areas:
             ". intro intro intro ."
-            ". avsnitt1 avsnitt1 logo ."
+            ". avsnitt1 avsnitt1 avsnitt1 ."
             ". avsnitt2 avsnitt2 avsnitt2 .";
 }
 
