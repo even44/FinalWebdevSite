@@ -201,8 +201,8 @@
   
 }
 .logo > img{
-  width: 100%;
-  
+  width: 80%;
+  max-width: 250px;
 }
 
 .main_reflection{
