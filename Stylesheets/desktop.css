@@ -22,7 +22,7 @@
     display: block;
     color: black;
     font-size: xx-large;
-    font-family: 'Merriweather', serif;
+    font-family: 'Verdana', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -156,13 +156,13 @@
 
 .underoverskrift1{
   grid-area: underoverskrift1;
-  font-family: 'Merriweather', serif;
+  font-family: 'Verdana', serif;
   font-size: x-large;
 }
 
 .underoverskrift2{
   grid-area: underoverskrift2;
-  font-family: 'Merriweather', serif;
+  font-family: 'Verdana', serif;
   font-size: x-large;
 }
 
