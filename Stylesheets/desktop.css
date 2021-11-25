@@ -22,7 +22,7 @@
     display: block;
     color: black;
     font-size: xx-large;
-    font-family: 'Merriweather', serif;
+    font-family: 'Tahoma', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,8 +54,8 @@
   grid-template-rows: auto;
   grid-template-areas:
             ". intro intro intro ."
-            ". p1 p1 logo ."
-            ". p2 p2 p2 .";
+            ". avsnitt1 avsnitt1 logo ."
+            ". avsnitt2 avsnitt2 avsnitt2 .";
 }
 
 .grid_container_reflection{
@@ -108,43 +108,43 @@
 
 .avsnitt1{
   grid-area: avsnitt1;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
 .avsnitt2{
   grid-area: avsnitt2;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
 .avsnitt3{
   grid-area: avsnitt3;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
 .avsnitt4{
   grid-area: avsnitt4;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
 .avsnitt5{
   grid-area: avsnitt5;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
 .avsnitt6{
   grid-area: avsnitt6;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
 .avsnitt7{
   grid-area: avsnitt7;
-  font-family: 'Merriweather', serif;
+  font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
@@ -198,18 +198,6 @@
 .logo > img{
   width: 100%;
   
-}
-
-.p1{
-  grid-area: p1;
-  font-family: 'Merriweather', serif;
-  font-size: x-large;
-}
-
-.p2{
-  grid-area: p2;
-  font-family: 'Merriweather', serif;
-  font-size: x-large;
 }
 
 .main_reflection{
