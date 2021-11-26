@@ -40,31 +40,36 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-              " headline . . "
+              " . headline . "
               " . cookie . ";
   }
   
-  .headline {
+  #headline {
     grid-area: headline;
+    
   }
   
   #cookie {
     grid-area: cookie;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: limegreen;
     width: 350px;
     height: 350px;
     
     
+    
+    
    }
   
   #score {
-    display: flex;
-    align-items: center;
+    
     justify-content: center;
     font-size: 100%;
     
     font-family: 'Tahoma', serif;
-    
+   
     
     
   }

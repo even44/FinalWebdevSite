@@ -36,28 +36,46 @@
     </nav>
     <div class="grid_container_fun">
 
-        <h1 id="headline">Spill 1:</h1>
+        <h1 id="headline">FIRST(only) GAME:</h1>
 
         <div onclick="bytte()" id="cookie">
-
-            <h1 id="score" onload="pålast()">Trykk for å få poeng</h1>
+            
+            <div id="score"><h1 id="score_text">Trykk for å få poeng</h1></div>
+            
 
         </div>
     </div>  
 </body>
 <script>
     var points = 0;
+    if(localStorage.score){
+        points = localStorage.score;
+        document.getElementById("score_text").innerHTML = points;
+        
+    }
+    else{
+        localStorage.points = 0;
+    }
+    
 
     function bytte() {
         points++;
+       if(points>999){
+        points = 0
+       }
+       else{
+           localStorage.score = points;
+       }
+        
+
         
         if(visualViewport.width < 1200){
-            document.getElementById("score").style.fontSize = "100%";
+            document.getElementById("score_text").style.fontSize = "500%";
         }
         else{
-            document.getElementById("score").style.fontSize = "1000%";
+            document.getElementById("score_text").style.fontSize = "1000%";
         }
-        document.getElementById("score").innerHTML = points;
+        document.getElementById("score_text").innerHTML = points;
 
         document.getElementById("cookie").style.backgroundColor = random_rgba() ;
 
@@ -67,15 +85,12 @@
     function random_rgba() {
     var o = Math.round, r = Math.random, s = 255;
     return 'rgb(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ')';
+
+
+
 }
 
-    function pålast(){
-       var r = Math.floor(random()*255);
-       var g = Math.floor(random()*255);
-       var b = Math.floor(random()*255);
-       document.getElementById("cookie").style.backgroundColor = "blue" ;
-       console.log("hei");
-    }
+    
     
 </script>
 </html>
