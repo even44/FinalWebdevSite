@@ -186,19 +186,19 @@
   box-shadow: 5px 5px 5px black;
 }
 
-#errors > img,
-#mindmap > img{
+.errors > img,
+.mindmap > img{
   width: 100%;
   box-shadow: 5px 5px 5px black;
 }
 
-#errors{
+.errors{
   grid-area: errors;
   margin: auto;
   padding: 3%;
 }
 
-#mindmap{
+.mindmap{
   grid-area: mindmap;
   margin: auto;
   padding: 3%;
