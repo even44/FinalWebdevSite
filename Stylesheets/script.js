@@ -1,3 +1,4 @@
+
 var points = 0;
     if(localStorage.score){
         if(visualViewport.width < 1200){
