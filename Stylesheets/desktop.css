@@ -76,7 +76,6 @@
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   grid-template-areas:
-            ". intro intro intro ."
             ". avsnitt1 avsnitt1 avsnitt1 ."
             ". avsnitt2 avsnitt2 avsnitt2 ."
             ". errors errors errors ."
