@@ -204,6 +204,8 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   box-shadow: 5px 5px 5px black;
 }
 
+/*The two pictures in accesibility was more detailed than the other pictures. 
+Therefore we added a seperate styling for the two pictures*/
 .errors > img,
 .mindmap > img{
   width: 100%;
