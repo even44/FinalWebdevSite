@@ -48,8 +48,8 @@
   grid-template-rows: auto;
   grid-template-areas:
             ". intro intro intro ."
-            ". avsnitt1 avsnitt1 logo ."
-            ". avsnitt2 avsnitt2 avsnitt2 .";
+            ". paragraph1 paragraph1 logo ."
+            ". paragraph2 paragraph2 paragraph2 .";
 }
 
 .grid_container_reflection{
@@ -60,12 +60,12 @@
   grid-template-rows: auto;
   grid-template-areas:
             ". intro intro intro ."
-            ". avsnitt1 avsnitt1 avsnitt1 ."
-            ". avsnitt2 avsnitt2 bilde1 ."
-            ". avsnitt3 avsnitt3 avsnitt3 ."
-            ". bilde3 avsnitt4 avsnitt4 ."
-            ". avsnitt5 avsnitt5 avsnitt5 ."
-            ". avsnitt6 avsnitt6 avsnitt6 .";
+            ". paragraph1 paragraph1 paragraph1 ."
+            ". paragraph2 paragraph2 picture1 ."
+            ". paragraph3 paragraph3 paragraph3 ."
+            ". picture3 paragraph4 paragraph4 ."
+            ". paragraph5 paragraph5 paragraph5 ."
+            ". paragraph6 paragraph6 paragraph6 .";
 }
 
 .grid_container_accessibility{
@@ -76,14 +76,14 @@
   grid-template-rows: auto;
   grid-template-areas:
             ". intro intro intro ."
-            ". avsnitt1 avsnitt1 avsnitt1 ."
-            ". avsnitt2 avsnitt2 avsnitt2 ."
+            ". paragraph1 paragraph1 paragraph1 ."
+            ". paragraph2 paragraph2 paragraph2 ."
             ". errors errors errors ."
-            ". avsnitt3 avsnitt3 avsnitt3 ."
+            ". paragraph3 paragraph3 paragraph3 ."
             ". mindmap mindmap mindmap ."
-            ". avsnitt4 avsnitt4 avsnitt4 ."
-            ". avsnitt5 avsnitt5 avsnitt5 ."
-            ". avsnitt6 avsnitt6 avsnitt6 .";
+            ". paragraph4 paragraph4 paragraph4 ."
+            ". paragraph5 paragraph5 paragraph5 ."
+            ". paragraph6 paragraph6 paragraph6 .";
 }
 
 
@@ -94,93 +94,93 @@
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   grid-template-areas:
-            ". intro intro intro ."
-            ". avsnitt1 avsnitt1 avsnitt1 ."
-            ". underoverskrift1 underoverskrift1 underoverskrift1 ."
-            ". avsnitt2 avsnitt2 avsnitt2 ."
-            ". avsnitt3 avsnitt3 avsnitt3 ."
-            ". bilde1 avsnitt4 avsnitt4 ."
-            ". underoverskrift2 underoverskrift2 underoverskrift2 ."
-            ". avsnitt5 avsnitt5 avsnitt5 ."
-            ". avsnitt6 avsnitt6 bilde2 ."
-            ". avsnitt7 avsnitt7 avsnitt7 .";
+            ". intro intro intro ." 
+            ". paragraph1 paragraph1 paragraph1 ."
+            ". subparagraph1 subparagraph1 subparagraph1 ."
+            ". paragraph2 paragraph2 paragraph2 ."
+            ". paragraph3 paragraph3 paragraph3 ."
+            ". picture1 paragraph4 paragraph4 ."
+            ". subparagraph2 subparagraph2 subparagraph2 ."
+            ". paragraph5 paragraph5 paragraph5 ."
+            ". paragraph6 paragraph6 picture2 ."
+            ". paragraph7 paragraph7 paragraph7 .";
 }
 
-.avsnitt1{
-  grid-area: avsnitt1;
+.paragraph1{
+  grid-area: paragraph1;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.avsnitt2{
-  grid-area: avsnitt2;
+.paragraph2{
+  grid-area: paragraph2;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.avsnitt3{
-  grid-area: avsnitt3;
+.paragraph3{
+  grid-area: paragraph3;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.avsnitt4{
-  grid-area: avsnitt4;
+.paragraph4{
+  grid-area: paragraph4;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.avsnitt5{
-  grid-area: avsnitt5;
+.paragraph5{
+  grid-area: paragraph5;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.avsnitt6{
-  grid-area: avsnitt6;
+.paragraph6{
+  grid-area: paragraph6;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.avsnitt7{
-  grid-area: avsnitt7;
+.paragraph7{
+  grid-area: paragraph7;
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
 
-.underoverskrift1{
-  grid-area: underoverskrift1;
+.subparagraph1{
+  grid-area: subparagraph1;
   font-family: 'Helvetica', serif;
   font-size: x-large;
 }
 
-.underoverskrift2{
-  grid-area: underoverskrift2;
+.subparagraph2{
+  grid-area: subparagraph2;
   font-family: 'Helvetica', serif;
   font-size: x-large;
 }
 
-.bilde1{
-  grid-area: bilde1;
+.picture1{
+  grid-area: picture1;
   margin: auto;
   padding: 3%;
 }
 
-.bilde2{
-  grid-area: bilde2;
+.picture2{
+  grid-area: picture2;
   margin: auto;
   padding: 3%;
 }
 
-.bilde3{
-  grid-area: bilde3;
+.picture3{
+  grid-area: picture3;
   margin: auto;
   padding: 3%;
 }
 
-.bilde1 > img,
-.bilde2 > img,
-.bilde3 > img{
+.picture1 > img,
+.picture2 > img,
+.picture3 > img{
   width: 100%;
   max-width: 250px;
   box-shadow: 5px 5px 5px black;
