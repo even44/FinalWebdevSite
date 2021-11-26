@@ -188,8 +188,8 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   grid-area: picture3;
 }
 
-.picture3,
-.picture3,
+.picture1,
+.picture2,
 .picture3{
   margin: auto;
   padding: 5%;
