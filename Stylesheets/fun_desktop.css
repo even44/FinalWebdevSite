@@ -46,11 +46,15 @@
   
   #headline {
     grid-area: headline;
+    width: 350px;
+    margin: auto;
+    margin-top: 5%;
     
   }
   
   #cookie {
     grid-area: cookie;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
