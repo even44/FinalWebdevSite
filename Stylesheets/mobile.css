@@ -69,9 +69,15 @@
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: auto;
   grid-template-areas:
-            " intro intro logo "
-            " intro intro logo "
-            " main main main ";
+            " intro intro intro "
+            " avsnitt1 avsnitt1 avsnitt1 "
+            " avsnitt2 avsnitt2 avsnitt2 "
+            " errors errors errors ."
+            " avsnitt3 avsnitt3 avsnitt3 "
+            " mindmap mindmap mindmap ."
+            " avsnitt4 avsnitt4 avsnitt4 "
+            " avsnitt5 avsnitt5 avsnitt5 "
+            " avsnitt6 avsnitt6 avsnitt6 ";
 }
 
 .grid_container_topical{
@@ -165,11 +171,25 @@
   padding: 3%;
 }
 
+#errors > img,
+#mindmap > img
 .bilde1 > img,
 .bilde2 > img,
 .bilde3 > img{
   width: 100%;
-  
+  box-shadow: 5px 5px 5px black;
+}
+
+#errors{
+  grid-area: errors;
+  margin: auto;
+  padding: 3%;
+}
+
+#mindmap{
+  grid-area: mindmap;
+  margin: auto;
+  padding: 3%;
 }
 
 .intro{
