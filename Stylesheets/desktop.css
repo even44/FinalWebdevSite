@@ -224,6 +224,7 @@
  }
 
 #score {
+  position: relative;
   margin-left: auto;
   margin-top: auto;
   font-size: 500%;
