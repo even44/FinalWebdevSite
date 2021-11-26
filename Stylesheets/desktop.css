@@ -78,9 +78,9 @@
   grid-template-areas:
             ". avsnitt1 avsnitt1 avsnitt1 ."
             ". avsnitt2 avsnitt2 avsnitt2 ."
-            ". bilde1 bilde1 bilde1 ."
+            ". errors errors errors ."
             ". avsnitt3 avsnitt3 avsnitt3 ."
-            ". bilde2 bilde2 bilde2 ."
+            ". mindmap mindmap mindmap ."
             ". avsnitt4 avsnitt4 avsnitt4 ."
             ". avsnitt5 avsnitt5 avsnitt5 ."
             ". avsnitt6 avsnitt6 avsnitt6 .";
@@ -184,6 +184,24 @@
   width: 100%;
   max-width: 250px;
   box-shadow: 5px 5px 5px black;
+}
+
+#errors > img,
+#mindmap > img{
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+}
+
+#errors{
+  grid-area: errors;
+  margin: auto;
+  padding: 3%;
+}
+
+#mindmap{
+  grid-area: mindmap;
+  margin: auto;
+  padding: 3%;
 }
 
 .intro{
