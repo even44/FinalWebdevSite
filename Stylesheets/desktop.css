@@ -38,8 +38,17 @@
   }
 
 
-/* Grid Oppsett */
+/* Grid and grid area. */
 /*<!-- Grid code courtesy of https://www.youtube.com/watch?v=tPosqmwIx0w -->*/
+
+/* Here you will have the ability to change styling for the different pages. Since we use grid area
+you'll also be able to change the structure easy. */
+
+/*As we wanted full freedom over where and how we would place every paragraph, title and picture in each page, we decided
+to designate every each element their class. This way we can place the paragraphs and pictures as we pleace in grid area*/
+
+
+/*Grid container for the hompeage*/
 .grid_container_homepage{
   margin-top: 5%;
   display: grid;
@@ -52,6 +61,7 @@
             ". paragraph2 paragraph2 paragraph2 .";
 }
 
+/*Grid container for the Reflection page*/
 .grid_container_reflection{
   margin-top: 5%;
   display: grid;
@@ -68,6 +78,8 @@
             ". paragraph6 paragraph6 paragraph6 .";
 }
 
+
+/*Grid container for the Accessibility page*/
 .grid_container_accessibility{
   margin-top: 5%;
   display: grid;
@@ -86,7 +98,7 @@
             ". paragraph6 paragraph6 paragraph6 .";
 }
 
-
+/*Grid container for the topical information page*/
 .grid_container_topical{
   margin-top: 5%;
   display: grid;
@@ -105,6 +117,10 @@
             ". paragraph6 paragraph6 picture2 ."
             ". paragraph7 paragraph7 paragraph7 .";
 }
+
+/*The most amount of paragraphs we use in one page is seven. This is why we have designated seven paragraphs.
+If you or another future developer want to add more paragraphs to a page, you can do this easily by designating 
+more paragraphs below. The same solution is true for pictures and titles aswell*/
 
 .paragraph1{
   grid-area: paragraph1;
@@ -147,6 +163,8 @@
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
+
+/* List of subheaders (h2)*/
 
 .subparagraph1{
   grid-area: subparagraph1;
