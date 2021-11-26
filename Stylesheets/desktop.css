@@ -164,8 +164,14 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   font-size: x-large;
 }
 
-/* List of subheaders (h2)*/
+/* titles (h1) */
+.intro{
+  grid-area: intro;
+  font-family: 'Helvetica', serif;
+  font-size: x-large;
+}
 
+/* List of subheaders (h2)*/
 .subheader1{
   grid-area: subheader1;
   font-family: 'Helvetica', serif;
@@ -178,6 +184,7 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   font-size: x-large;
 }
 
+/* List of pictures added the standard way */
 .picture1{
   grid-area: picture1;
   margin: auto;
@@ -204,31 +211,29 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   box-shadow: 5px 5px 5px black;
 }
 
-/*The two pictures in accesibility was more detailed than the other pictures. 
-Therefore we added a seperate styling for the two pictures*/
+
+/* Some pictures was not the right size. In these cases we made specific classes 
+so we had the posibility to add every kind of picture */
+.errors{
+  grid-area: errors;
+}
+
+.mindmap{
+  grid-area: mindmap;
+}
+
 .errors > img,
 .mindmap > img{
   width: 100%;
   box-shadow: 5px 5px 5px black;
 }
 
-.errors{
-  grid-area: errors;
-  margin: auto;
-  padding: 3%;
-}
-
+.errors,
 .mindmap{
-  grid-area: mindmap;
   margin: auto;
   padding: 3%;
 }
 
-.intro{
-  grid-area: intro;
-  font-family: 'Helvetica', serif;
-  font-size: x-large;
-}
 .logo{
   grid-area: logo;
   margin: auto;
@@ -237,10 +242,4 @@ Therefore we added a seperate styling for the two pictures*/
 .logo > img{
   width: 80%;
   max-width: 250px;
-}
-
-.main_reflection{
-  grid-area: main_reflection;
-  font-family: 'Tahoma', serif;
-  font-size: xx-large;
 }
