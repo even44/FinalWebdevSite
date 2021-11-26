@@ -108,11 +108,11 @@ to designate every each element their class. This way we can place the paragraph
   grid-template-areas:
             ". intro intro intro ." 
             ". paragraph1 paragraph1 paragraph1 ."
-            ". subparagraph1 subparagraph1 subparagraph1 ."
+            ". subheader1 subheader1 subheader1 ."
             ". paragraph2 paragraph2 paragraph2 ."
             ". paragraph3 paragraph3 paragraph3 ."
             ". picture1 paragraph4 paragraph4 ."
-            ". subparagraph2 subparagraph2 subparagraph2 ."
+            ". subheader2 subheader2 subheader2 ."
             ". paragraph5 paragraph5 paragraph5 ."
             ". paragraph6 paragraph6 picture2 ."
             ". paragraph7 paragraph7 paragraph7 .";
@@ -166,14 +166,14 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 
 /* List of subheaders (h2)*/
 
-.subparagraph1{
-  grid-area: subparagraph1;
+.subheader1{
+  grid-area: subheader1;
   font-family: 'Helvetica', serif;
   font-size: x-large;
 }
 
-.subparagraph2{
-  grid-area: subparagraph2;
+.subheader2{
+  grid-area: subheader2;
   font-family: 'Helvetica', serif;
   font-size: x-large;
 }
