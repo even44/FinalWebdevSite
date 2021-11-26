@@ -119,42 +119,40 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 
 .paragraph1{
   grid-area: paragraph1;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
 }
 
 .paragraph2{
   grid-area: paragraph2;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
 }
 
 .paragraph3{
   grid-area: paragraph3;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
 }
 
 .paragraph4{
   grid-area: paragraph4;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
 }
 
 .paragraph5{
   grid-area: paragraph5;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
 }
 
 .paragraph6{
   grid-area: paragraph6;
-  font-family: 'Tahoma', serif;
-  font-size: x-large;
+  
 }
 
 .paragraph7{
   grid-area: paragraph7;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3,
+.paragraph4,
+.paragraph5,
+.paragraph6,
+.paragraph7 {
   font-family: 'Tahoma', serif;
   font-size: x-large;
 }
@@ -162,19 +160,20 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 /* titles (h1) */
 .intro{
   grid-area: intro;
-  font-family: 'Helvetica', serif;
-  font-size: x-large;
 }
 
 /* List of subheaders (h2)*/
 .subheader1{
   grid-area: subheader1;
-  font-family: 'Helvetica', serif;
-  font-size: x-large;
 }
 
 .subheader2{
   grid-area: subheader2;
+}
+
+.intro,
+.subheader1,
+.subheader2 {
   font-family: 'Helvetica', serif;
   font-size: x-large;
 }
