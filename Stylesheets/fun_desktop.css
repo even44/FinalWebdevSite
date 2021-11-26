@@ -1,4 +1,6 @@
 /* Navigation for desktop fun (widescreen) */
+
+/* as we where going to structure this page a little different, we decided to make a new stylesheet for this page */
 .ul_nav {
     display: flex;
     justify-content: space-around;
