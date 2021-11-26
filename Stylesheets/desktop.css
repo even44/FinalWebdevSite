@@ -180,18 +180,19 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 /* List of pictures added the standard way */
 .picture1{
   grid-area: picture1;
-  margin: auto;
-  padding: 3%;
 }
 
 .picture2{
   grid-area: picture2;
-  margin: auto;
-  padding: 3%;
 }
 
 .picture3{
   grid-area: picture3;
+}
+
+.picture3,
+.picture3,
+.picture3{
   margin: auto;
   padding: 3%;
 }
