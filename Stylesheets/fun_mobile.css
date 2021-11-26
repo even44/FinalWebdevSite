@@ -32,34 +32,36 @@
   }
 
 .grid_container_fun{
-    margin-bottom: 5%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-              " headline cookie . "
-              " . cookie . ";
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            " . headline . "
+            " . cookie . ";
   }
   
   #headline {
     grid-area: headline;
-    font-size: large;
+    width: 150px;
+    margin: auto;
+    margin-top: 5%;
   }
   
   #cookie {
     grid-area: cookie;
-    background-color: limegreen;
-    width: 35vw;
-    height: 35vw;
     margin: auto;
-    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: limegreen;
+    width: 150px;
+    height: 150px;
    }
   
   #score {
-    margin-left: auto;
-    margin-top: auto;
-    font-size: 175%;
+    font-size: 50%;
     font-family: 'Tahoma', serif;
     text-align: center;
-    vertical-align: 50%;
+    
   }
