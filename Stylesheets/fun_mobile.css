@@ -38,7 +38,8 @@
   grid-template-rows: auto;
   grid-template-areas:
             " . headline . "
-            " . cookie . ";
+            " . cookie . "
+            ". paragraph1 .";
   }
   
   #headline {
@@ -64,4 +65,13 @@
     font-family: 'Tahoma', serif;
     text-align: center;
     
+  }
+
+  .paragraph1{
+    grid-area: paragraph1;
+  }
+
+  .paragraph1 {
+    font-family: 'Tahoma', serif;
+    font-size: small;
   }
