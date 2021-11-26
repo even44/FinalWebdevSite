@@ -157,19 +157,19 @@
 .bilde1{
   grid-area: bilde1;
   margin: auto;
-  padding: 1%;
+  padding: 3%;
 }
 
 .bilde2{
   grid-area: bilde2;
   margin: auto;
-  padding: 1%;
+  padding: 3%;
 }
 
 .bilde3{
   grid-area: bilde3;
   margin: auto;
-  padding: 1%;
+  padding: 3%;
 }
 
 .bilde1 > img,
