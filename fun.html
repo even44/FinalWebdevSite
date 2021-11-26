@@ -67,7 +67,8 @@
     function bytte() {
         points++;
        if(points>999){
-        points = 0
+        points = 0;
+        localStorage.removeItem("score");
        }
        else{
            localStorage.score = points;
