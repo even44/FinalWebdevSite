@@ -209,6 +209,8 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 
 /* Some pictures was not the right size. In these cases we made specific classes 
 so we had the posibility to add every kind of picture */
+
+/* Images found in topical.html */
 .errors{
   grid-area: errors;
 }
@@ -229,6 +231,7 @@ so we had the posibility to add every kind of picture */
   padding: 3%;
 }
 
+/* Image found in index.html */
 .logo{
   grid-area: logo;
   margin: auto;
