@@ -171,8 +171,6 @@
   padding: 3%;
 }
 
-#errors > img,
-#mindmap > img,
 .bilde1 > img,
 .bilde2 > img,
 .bilde3 > img{
@@ -180,13 +178,19 @@
   box-shadow: 5px 5px 5px black;
 }
 
-#errors{
+.errors > img,
+.mindmap > img{
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.errors{
   grid-area: errors;
   margin: auto;
   padding: 3%;
 }
 
-#mindmap{
+.mindmap{
   grid-area: mindmap;
   margin: auto;
   padding: 3%;
