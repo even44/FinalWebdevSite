@@ -1,4 +1,4 @@
-/* Navigasjonsbar for desktop(widescreen) */
+/* Navigation for desktop fun (widescreen) */
 .ul_nav {
     display: flex;
     justify-content: space-around;
@@ -49,7 +49,6 @@
     width: 350px;
     margin: auto;
     margin-top: 5%;
-    
   }
   
   #cookie {
@@ -61,18 +60,10 @@
     background-color: limegreen;
     width: 350px;
     height: 350px;
-    
-    
-    
-    
    }
   
   #score {
-  
     font-size: 175%;
     font-family: 'Tahoma', serif;
-    text-align: center;
-    
-    
-    
+    text-align: center; 
   }
