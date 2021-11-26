@@ -76,10 +76,16 @@
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   grid-template-areas:
-            ". intro intro logo ."
-            ". intro intro logo ."
-            ". main main main .";
+            ". avsnitt1 avsnitt1 avsnitt1 ."
+            ". avsnitt2 avsnitt2 avsnitt2 ."
+            ". bilde1 bilde1 bilde1 ."
+            ". avsnitt3 avsnitt3 avsnitt3 ."
+            ". bilde2 bilde2 bilde2 ."
+            ". avsnitt4 avsnitt4 avsnitt4 ."
+            ". avsnitt5 avsnitt5 avsnitt5 ."
+            ". avsnitt6 avsnitt6 avsnitt6 .";
 }
+
 
 .grid_container_topical{
   margin-top: 5%;
