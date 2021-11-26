@@ -218,16 +218,16 @@ so we had the posibility to add every kind of picture */
   grid-area: mindmap;
 }
 
-.errors > img,
-.mindmap > img{
-  width: 100%;
-  box-shadow: 5px 5px 5px black;
-}
-
 .errors,
 .mindmap{
   margin: auto;
   padding: 3%;
+}
+
+.errors > img,
+.mindmap > img{
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
 }
 
 /* Image found in index.html */
