@@ -1,3 +1,36 @@
+.ul_nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F3D503;
+  }
+  
+.ul_nav > li {
+    float: left;
+  }
+  
+.ul_nav li > a {
+    display: block;
+    color: black;
+    font-size: 85%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 2% 3%;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+.ul_nav li > a:hover {
+    background-color: rgb(136, 106, 106);
+  }
+
 .grid_container_fun{
     margin-bottom: 5%;
     display: grid;

@@ -200,37 +200,3 @@
   font-family: 'Tahoma', serif;
   font-size: xx-large;
 }
-
-.grid_container_fun{
-  margin-top: 10%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-            " headline cookie . "
-            " . cookie . ";
-}
-
-.headline {
-  grid-area: headline;
-}
-
-.cookie {
-  grid-area: cookie;
-  background-color: aqua;
-  width: 35vw;
-  height: 35vw;
-  margin: auto;
-  margin-top: auto;
- }
-
-#score {
-  position: relative;
-  margin-left: auto;
-  margin-top: auto;
-  font-size: 500%;
-  font-family: 'Tahoma', serif;
-  text-align: center;
-  vertical-align: 50%;
-}
-

@@ -1,3 +1,39 @@
+/* Navigasjonsbar for desktop(widescreen) */
+.ul_nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F3D503;
+  }
+
+.ul_nav > li {
+    float: left;
+  }
+  
+.ul_nav li > a {
+    display: block;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Helvetica', serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /* Change the link color to #111 (black) on hover */
+.ul_nav li > a:hover {
+    background-color: rgb(136, 106, 106);
+  }
+
 .grid_container_fun{
     margin-top: 10%;
     display: grid;
