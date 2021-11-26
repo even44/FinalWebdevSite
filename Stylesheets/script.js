@@ -1,4 +1,6 @@
 
+//Web storage API reference used to get knowledge about the API: https://www.w3schools.com/html/html5_webstorage.asp
+
 var points = 0;
     if(localStorage.score){
         if(visualViewport.width < 1200){
