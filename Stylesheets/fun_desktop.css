@@ -68,12 +68,11 @@
    }
   
   #score {
-    
-    justify-content: center;
-    font-size: 100%;
-    
+  
+    font-size: 175%;
     font-family: 'Tahoma', serif;
-   
+    text-align: center;
+    
     
     
   }
