@@ -157,19 +157,20 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 /* titles (h1) */
 .intro{
   grid-area: intro;
-  font-family: Helvetica, sans-serif;
-  font-size: small;
 }
 
 /* List of subheaders (h2)*/
 .subheader1{
   grid-area: subparagraph1;
-  font-family: Helvetica, sans-serif;
-  font-size: small;
 }
 
 .subheader2{
   grid-area: subparagraph2;
+}
+
+.intro,
+.subheader1,
+.subheader2 {
   font-family: Helvetica, sans-serif;
   font-size: small;
 }
