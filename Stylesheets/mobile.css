@@ -117,42 +117,39 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 
 .paragraph1{
   grid-area: paragraph1;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
 .paragraph2{
   grid-area: paragraph2;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
 .paragraph3{
   grid-area: paragraph3;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
 .paragraph4{
   grid-area: paragraph4;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
 .paragraph5{
   grid-area: paragraph5;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
 .paragraph6{
   grid-area: paragraph6;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
 .paragraph7{
   grid-area: paragraph7;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3,
+.paragraph4,
+.paragraph5,
+.paragraph6,
+.paragraph7{
   font-family: 'Tahoma', serif;
   font-size: small;
 }
