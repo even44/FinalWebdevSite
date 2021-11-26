@@ -22,7 +22,7 @@
     display: block;
     color: black;
     font-size: 85%;
-    font-family: 'Merriweather', serif;
+    font-family: Helvetica, sans-serif;
     text-align: center;
     padding: 2% 3%;
     text-decoration: none;
@@ -142,13 +142,13 @@
 
 .underoverskrift1{
   grid-area: underoverskrift1;
-  font-family: 'Merriweather', serif;
+  font-family: Helvetica, sans-serif;
   font-size: small;
 }
 
 .underoverskrift2{
   grid-area: underoverskrift2;
-  font-family: 'Merriweather', serif;
+  font-family: Helvetica, sans-serif;
   font-size: small;
 }
 
@@ -197,7 +197,7 @@
 
 .intro{
   grid-area: intro;
-  font-family: 'Merriweather', serif;
+  font-family: Helvetica, sans-serif;
   font-size: small;
 }
 .logo{
