@@ -49,6 +49,12 @@
 <script>
     var points = 0;
     if(localStorage.score){
+        if(visualViewport.width < 1200){
+            document.getElementById("score_text").style.fontSize = "500%";
+        }
+        else{
+            document.getElementById("score_text").style.fontSize = "1000%";
+        }
         points = localStorage.score;
         document.getElementById("score_text").innerHTML = points;
         
