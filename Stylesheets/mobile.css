@@ -156,19 +156,19 @@
 .picture1{
   grid-area: picture1;
   margin: auto;
-  padding: 3%;
+  padding: 5%;
 }
 
 .picture2{
   grid-area: picture2;
   margin: auto;
-  padding: 3%;
+  padding: 5%;
 }
 
 .picture3{
   grid-area: picture3;
   margin: auto;
-  padding: 3%;
+  padding: 5%;
 }
 
 .picture1 > img,
@@ -187,13 +187,13 @@
 .errors{
   grid-area: errors;
   margin: auto;
-  padding: 3%;
+  padding: 5%;
 }
 
 .mindmap{
   grid-area: mindmap;
   margin: auto;
-  padding: 3%;
+  padding: 5%;
 }
 
 .intro{
