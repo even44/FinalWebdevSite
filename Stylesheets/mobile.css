@@ -69,7 +69,6 @@
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: auto;
   grid-template-areas:
-            " intro intro intro "
             " avsnitt1 avsnitt1 avsnitt1 "
             " avsnitt2 avsnitt2 avsnitt2 "
             " errors errors errors ."
@@ -178,19 +177,19 @@
   box-shadow: 5px 5px 5px black;
 }
 
-.errors > img,
-.mindmap > img{
+#errors > img,
+#mindmap > img{
   width: 100%;
   box-shadow: 5px 5px 5px black;
 }
 
-.errors{
+#errors{
   grid-area: errors;
   margin: auto;
   padding: 3%;
 }
 
-.mindmap{
+#mindmap{
   grid-area: mindmap;
   margin: auto;
   padding: 3%;
