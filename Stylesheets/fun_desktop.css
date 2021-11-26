@@ -10,7 +10,7 @@
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #F3D503;
+    background-color: blueviolet;
   }
 
 .ul_nav > li {
@@ -48,9 +48,9 @@
     grid-area: headline;
   }
   
-  .cookie {
+  #cookie {
     grid-area: cookie;
-    background-color: aqua;
+    background-color: limegreen;
     width: 35vw;
     height: 35vw;
     margin: auto;

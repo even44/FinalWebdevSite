@@ -9,7 +9,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #F3D503;
+    background-color: blueviolet;
   }
   
 .ul_nav > li {
@@ -46,9 +46,9 @@
     font-size: large;
   }
   
-  .cookie {
+  #cookie {
     grid-area: cookie;
-    background-color: aqua;
+    background-color: limegreen;
     width: 35vw;
     height: 35vw;
     margin: auto;
