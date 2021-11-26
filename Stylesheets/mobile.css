@@ -157,8 +157,14 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   font-size: small;
 }
 
-/* List of subheaders (h2)*/
+/* titles (h1) */
+.intro{
+  grid-area: intro;
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+}
 
+/* List of subheaders (h2)*/
 .subheader1{
   grid-area: subparagraph1;
   font-family: Helvetica, sans-serif;
@@ -171,6 +177,7 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   font-size: small;
 }
 
+/* List of pictures added the standard way */
 .picture1{
   grid-area: picture1;
   margin: auto;
@@ -196,29 +203,21 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
   box-shadow: 5px 5px 5px black;
 }
 
+/* Some pictures was not the right size. In these cases we made specific classes 
+so we had the posibility to add every kind of picture */
 .errors > img,
 .mindmap > img{
   width: 100%;
   box-shadow: 5px 5px 5px black;
 }
 
-.errors{
+.errors,
+.mindmap{
   grid-area: errors;
   margin: auto;
   padding: 5%;
 }
 
-.mindmap{
-  grid-area: mindmap;
-  margin: auto;
-  padding: 5%;
-}
-
-.intro{
-  grid-area: intro;
-  font-family: Helvetica, sans-serif;
-  font-size: small;
-}
 .logo{
   grid-area: logo;
   margin: auto;
@@ -227,11 +226,5 @@ more paragraphs below. The same solution is true for pictures and titles aswell*
 .logo > img{
   width: 80%;
   max-width: 250px;
-}
-
-.main_reflection{
-  grid-area: main_reflection;
-  font-family: 'Tahoma', serif;
-  font-size: small;
 }
 
